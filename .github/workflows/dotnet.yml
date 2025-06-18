@@ -24,7 +24,7 @@ jobs:
       run: dotnet restore
 
     - name: 🧱 Build ASP.NET Core project
-      run: dotnet build ./testing/testing.csproj --configuration Release --no-restore
+      run: dotnet build ./UnitTesting/UnitTesting.csproj --configuration Release --no-restore
 
   test:
     name: 🧪 Run Test Cases
@@ -45,5 +45,5 @@ jobs:
 
     - name:  Build and run xUnit tests
       run: |
-        dotnet build ./Xunit/Xunit.csproj --configuration Release --no-restore
-        dotnet test ./Xunit/Xunit.csproj --no-build --verbosity normal
+        dotnet build ./TestProject1/TestProject1.csproj --configuration Release --no-restore
+        dotnet test ./TestProject1/TestProject1.csproj --no-build --verbosity normal
