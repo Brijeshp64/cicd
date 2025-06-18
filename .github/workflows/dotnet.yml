@@ -26,24 +26,7 @@ jobs:
     - name: 🧱 Build ASP.NET Core project
       run: dotnet build ./UnitTesting/UnitTesting.csproj --configuration Release --no-restore
 
-  test:
-    name: 🧪 Run Test Cases
-    runs-on: ubuntu-latest
-    needs: build   # This ensures the test job runs after build
+    - name : Run Test case
+      run: dotnet test ./TestProject1/TestProject1.csproj --no-build --verbosity normal
 
-    steps:
-    - name:  Checkout code
-      uses: actions/checkout@v3
-
-    - name:  Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x'
-
-    - name: Restore dependencies
-      run: dotnet restore
-
-    - name:  Build and run xUnit tests
-      run: |
-        dotnet build ./TestProject1/TestProject1.csproj --configuration Release --no-restore
-        dotnet test ./TestProject1/TestProject1.csproj --no-build --verbosity normal
+ 
