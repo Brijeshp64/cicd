@@ -120,3 +120,4 @@ C:\Users\ITIDOL\source\repos\UnitTesting\TestProject1\obj\Debug\net8.0\refint\Te
 C:\Users\ITIDOL\source\repos\UnitTesting\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\ITIDOL\source\repos\UnitTesting\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\ITIDOL\source\repos\UnitTesting\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\ITIDOL\source\repos\UnitTesting\TestProject1\obj\Debug\net8.0\TestProject1.sourcelink.json

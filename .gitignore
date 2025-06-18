@@ -1,0 +1,24 @@
+# Ignore build and VS-related folders
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.dll
+*.cache
+TestResults/
+*.log
+*.sln.docstates
+# Ignore build and VS-related folders
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.dll
+*.cache
+TestResults/
+*.log
+*.sln.docstates
